@@ -1,7 +1,7 @@
 import streamlit as st
 
 # ========= CONFIG =========
-MODEL_ID  = "6_YbLoW0i"                 # your Teachable Machine Audio model ID
+MODEL_ID  = "109VW9hDQ"                 # your Teachable Machine Audio model ID
 DEVICE_ID = "robotcar_umk1"             # must match your ESP32 device ID
 BROKER_WS = "wss://test.mosquitto.org:8081/mqtt"
 TOPIC_CMD = f"rc/{DEVICE_ID}/cmd"
